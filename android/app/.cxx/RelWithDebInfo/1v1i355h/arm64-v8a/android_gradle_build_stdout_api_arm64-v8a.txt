@@ -1,0 +1,9 @@
+ninja: Entering directory `D:\6. TI - Projetos e Cursos\9. Flutrer Speech Recognition\flutter example calling c++\testffi\android\app\.cxx\RelWithDebInfo\1v1i355h\arm64-v8a'
+[1/2] Building CXX object CMakeFiles/api.dir/api.cpp.o
+FAILED: CMakeFiles/api.dir/api.cpp.o 
+D:\Android\Sdk\ndk\23.1.7779620\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapi_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -MD -MT CMakeFiles/api.dir/api.cpp.o -MF CMakeFiles\api.dir\api.cpp.o.d -o CMakeFiles/api.dir/api.cpp.o -c "D:/6. TI - Projetos e Cursos/9. Flutrer Speech Recognition/flutter example calling c++/testffi/libs/api.cpp"
+D:/6. TI - Projetos e Cursos/9. Flutrer Speech Recognition/flutter example calling c++/testffi/libs/api.cpp:12:16: error: use of undeclared identifier 'toupper'
+   buffer[0] = toupper(buffer[0]);
+               ^
+1 error generated.
+ninja: build stopped: subcommand failed.

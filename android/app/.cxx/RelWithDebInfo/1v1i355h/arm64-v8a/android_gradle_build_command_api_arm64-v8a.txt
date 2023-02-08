@@ -1,0 +1,7 @@
+Executable : D:\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+D:\6. TI - Projetos e Cursos\9. Flutrer Speech Recognition\flutter example calling c++\testffi\android\app\.cxx\RelWithDebInfo\1v1i355h\arm64-v8a
+api
+jvmArgs : 
+
